@@ -1,0 +1,15 @@
+# Ignore Terraform lock files
+.terraform*
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore Terraform variables file that may contain sensitive values
+terraform.tfvars
+
+# Ignore environment variable files
+.env
+
+# Ignore sensitive credentials
+credentials.json
